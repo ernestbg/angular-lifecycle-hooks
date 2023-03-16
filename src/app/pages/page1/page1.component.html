@@ -1,0 +1,13 @@
+<p>page1 works!</p>
+
+<input type="text" placeholder="Input..." [(ngModel)]="name">
+<button (click)="save()">Click</button>
+
+<br><br>
+
+<app-show-name [name]=name></app-show-name>
+
+<br><br>
+
+<h2>Seconds: {{seconds}}</h2>
+
